@@ -37,8 +37,12 @@
 .button {
     margin: 5px;
     padding: 5px;
-    width: 80px;
+    min-width: 40px;
     height: 40px;
     background-color: pink;
     display: inline-block;
+}
+
+.gif-cont {
+    padding: 10px;
 }
