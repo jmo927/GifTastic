@@ -43,6 +43,16 @@
     display: inline-block;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .gif-cont {
     padding: 10px;
+    display: inline-block;
+}
+
+#ten-more {
+    margin: 10px;
+    text-align: center;
 }
