@@ -27,13 +27,37 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 810px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+/* Header */
+#logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding: 15px 25px 5px 0px;
+    color: black;
+    font-family: Raleway, sans-serif;
+    text-align: center;
 }
 
+#phone-home {
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#phone-home a {
+    text-decoration: none;
+    color: black;
+}
+
+#phone-home a:hover{
+    color: pink;
+}
+
+header {
+    background-color: aqua;
+}
+
+/* Buttons */
 .button {
     margin: 5px;
     padding: 5px;
@@ -47,12 +71,35 @@
     cursor: pointer;
 }
 
+.button-row {
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
+
+
+/* GIFS */
 .gif-cont {
     padding: 10px;
     display: inline-block;
 }
 
+.gif-itself {
+    height: 200px;
+}
+
 #ten-more {
     margin: 10px;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 810px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .button-row {
+        position: static;
+    }
 }

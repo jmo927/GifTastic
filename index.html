@@ -13,7 +13,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Shadows+Into+Light" rel="stylesheet">
-    
+
     <!-- Javascript -->
     <!-- jQuery  -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -24,19 +24,26 @@
 <body>
     <header>
         <h1 id="logo">GifTastic</h1>
-        <h2 id="phone-home">by Jason Romagni Moore</h2>
+        <h2 id="phone-home"><a href="https://jmo927.github.io" target="_blank">by Jason Romagni Moore</a></h2>
+
+        
     </header>
 
     <div class="container">
-        <div class="gif-buttons"></div>
-        <button id="display-favorites">Display Favorites</button>
-        <form name="form" action="">
-            Enter Your Favorite: <br>
-            <input name="inputbox" type="text" value="">
-            <br>
-            <input class="input-button" type="submit" name="form-submit" value="click">
-        </form>
-
+        
+        <div class="row button-row">
+                <div class="col-2 fav-cont">
+                        <button id="display-favorites">Display Favorites</button>
+                </div>
+            <div class="gif-buttons col-7"></div>
+            
+            <form name="form" action="" class = "col-3">
+                Enter Your Favorite: <br>
+                <input name="inputbox" type="text" value="">
+                <br>
+                <input class="input-button" type="submit" name="form-submit" value="Submit">
+            </form>
+        </div>
         <div class="gif-populate"></div>
         <button id="ten-more">10 More Results</button>
 
