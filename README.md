@@ -9,7 +9,7 @@ Below each GIF is a rating for the GIF, as well as a "Favorite" button.  Any GIF
 
 ## Versions
 
-1.1 - Added "Favorites" feature.
-1.0 - Basic functionality finished.
-0.2 - Initial API download -- working out which link plays best
-0.1 - Initial button creation
+- 1.1 - Added "Favorites" feature.
+- 1.0 - Basic functionality finished.
+- 0.2 - Initial API download -- working out which link plays best
+- 0.1 - Initial button creation
