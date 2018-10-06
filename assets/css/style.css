@@ -32,7 +32,7 @@
     font-size: 35px;
     letter-spacing: 1px;
     padding: 15px 25px 5px 0px;
-    color: black;
+    color: #cee5f2;
     font-family: Raleway, sans-serif;
     text-align: center;
 }
@@ -41,30 +41,37 @@
     font-size: 20px;
     padding: 5px 15px;
     text-align: center;
+    color: #cee5f2;
     font-family: 'Shadows Into Light', cursive;
 }
 
 #phone-home a {
     text-decoration: none;
-    color: black;
+    color: #cee5f2;
 }
 
 #phone-home a:hover{
-    color: pink;
+    color: #e1dd8f;
 }
 
 header {
-    background-color: aqua;
+    background-color: #8e3b46;
+}
+
+body {
+    background-color: #4c86a8;
 }
 
 /* Buttons */
-.button {
+.button, .input-button, #ten-more {
     margin: 5px;
     padding: 5px;
     min-width: 40px;
     height: 40px;
-    background-color: pink;
+    background-color: #e1dd8f;
     display: inline-block;
+    color: #151515;
+    border-radius: 8px;
 }
 
 .button:hover {
@@ -74,9 +81,25 @@ header {
 .button-row {
     position: sticky;
     top: 0;
-    background-color: aqua;
+    background-color: #8e3b46;
 }
 
+#display-favorites, .add-fav {
+    background-color: #cee5f2;
+    display: inline-block;
+    color: #151515;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 40px;
+    height: 40px;
+}
+
+.formation {
+    color: #cee5f2;
+    padding: 5px;
+    font-family: Raleway, sans-serif;
+}
 
 /* GIFS */
 .gif-cont {
