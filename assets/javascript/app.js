@@ -41,6 +41,7 @@ $(document).ready(function () {
         event.preventDefault();
         var x = form.inputbox.value;
         gifTopics.push(x);
+        form.inputbox.value = "";
         getButtons();
     });
 
