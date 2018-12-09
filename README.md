@@ -6,6 +6,8 @@ https://jmo927.github.io/GifTastic/
 
 This is a pretty straight-forward app: click on one of the tags to see 10 GIFs from GIPHY.  Click the "10 More" button to see 10 more GIFs from this tag.  
 
+The GIFs load paused.  Just click on the image to animate it! Click it again to pause it.
+
 Below each GIF is a rating for the GIF, as well as a "Favorite" button.  Any GIF you favorite will be saved for when you click the "Display Favorites" button (favorites only save while browser is open).
 
 ## Tech
