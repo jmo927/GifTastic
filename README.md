@@ -8,6 +8,11 @@ This is a pretty straight-forward app: click on one of the tags to see 10 GIFs f
 
 Below each GIF is a rating for the GIF, as well as a "Favorite" button.  Any GIF you favorite will be saved for when you click the "Display Favorites" button (favorites only save while browser is open).
 
+## Tech
+
+- jQuery (DOM manipulation and AJAX API calls)
+- HTML (Layout)
+- CSS (Style)
 
 ## Versions
 
